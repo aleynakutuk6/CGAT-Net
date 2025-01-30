@@ -1,0 +1,4 @@
+pillow
+scikit-learn
+matplotlib
+cairocffi

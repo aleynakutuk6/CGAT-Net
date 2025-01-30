@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# PyTorch and TensorFlow model files
+*.ckpt
+*.h5
+*.tflite
+*.onnx
+*.pt
+*.pth
+*.pb
+logs/
+lightning_logs/
+
+# Large dataset files
+*.csv
+*.tsv
+*.json
+*.xml
+*.zip
+*.tar.gz
+*.hdf5
+*.npz
+*.npy
+*.pkl
+*.joblib
+
+# MLflow and Weights & Biases artifacts
+mlruns/
+wandb/
+.wandb
+hydra/
+config.yaml
+params.yaml
+
+# TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# Compiled Cython files
+*.cpp
+*.so
+*.c
+
+# VS Code and JetBrains IDEs
+.vscode/
+.idea/
+*.iml
+Ã
+# Conda environment files
+*.conda
+*.yaml
+
+# Temporary files
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Docker
+*.dockerfile
+docker-compose.yml
+

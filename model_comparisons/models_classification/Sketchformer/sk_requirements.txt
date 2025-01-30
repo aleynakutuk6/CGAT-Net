@@ -1,0 +1,27 @@
+# cuda/10.1
+# cudnn/7.6.5/cuda-10.1
+
+setuptools >= 41.0.0
+h5py >= 2.9.0
+pillow >= 6.0.0
+tensorflow-gpu == 2.1
+pandas >= 0.24.1
+scikit-learn == 0.21.0
+ipython >= 5.5.0
+matplotlib >= 3.0
+slackclient >= 2.0
+rdp >= 0.8
+svgwrite == 1.1.12
+svglib >= 0.9.2
+reportlab >= 3.5.23
+numpy >= 1.16.4
+requests >= 2.22.0
+imageio >= 2.0
+scikit-image >= 0.16
+tensorflow_addons >= 0.6
+pycocotools
+svgpathtools
+--extra-index-url https://download.pytorch.org/whl/lts/1.8/cpu
+torch==1.8.2 
+torchvision==0.9.2 
+torchaudio==0.8.2 
