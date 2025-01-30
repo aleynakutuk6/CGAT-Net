@@ -1,0 +1,24 @@
+{
+    "model": {
+        "n_classes": null,
+        "backbone": "resnet18"
+    },
+    "dataset": {
+        "out_sketch_size": 224,
+        "margin_size": 5,
+        "ratios_path": "datasets/ratios",
+        "train": {
+            "dataset_name": "single_sketch"
+        },
+        "val": {
+            "dataset_name": "single_sketch"
+        }
+    },
+    "pipeline": {
+        "learning_rate": 0.001,
+        "batch_size": 64,
+        "best_val_acc": -1,
+        "max_train_steps": 1000000,
+        "val_per_step": 1000
+    }
+}

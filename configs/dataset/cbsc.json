@@ -1,0 +1,18 @@
+{
+    "val": {
+        "dataset_name": "cbsc",
+        "data_dir": "/scratch/users/akutuk21/hpc_run/CBSC-dataset/CBSC_processed/validation",
+        "mapping_file": "datasets/mapping_files/cbsc_to_qd_mappings.json",
+        "extra_filter_file": "datasets/mapping_files/common_classes.txt",
+        "max_obj_cnt": -1,
+        "max_point_cnt": -1
+    },
+    "test": {
+        "dataset_name": "cbsc",
+        "data_dir": "/scratch/users/akutuk21/hpc_run/CBSC-dataset/CBSC_processed/test",
+        "mapping_file": "datasets/mapping_files/cbsc_to_qd_mappings.json",
+        "extra_filter_file": "datasets/mapping_files/common_classes.txt",
+        "max_obj_cnt": -1,
+        "max_point_cnt": -1
+    }
+}

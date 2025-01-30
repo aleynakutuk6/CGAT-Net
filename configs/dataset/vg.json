@@ -1,0 +1,33 @@
+{
+    "train": {
+        "dataset_name": "vg",
+        "max_obj_cnt": 5,
+        "img_dir": "/scratch/users/akutuk21/hpc_run/PySGG/datasets/vg/stanford_spilt/VG_100k_images",
+        "roidb_file": "datasets/VG/VG-SGG-with-attri.h5",
+        "dict_file": "datasets/VG/VG-SGG-dicts-with-attri.json",
+        "image_file": "datasets/VG/image_data.json",
+        "mapping_file": "datasets/VG/vg_sketch_mappings.json",
+        "ratios_path": "datasets/ratios",
+        "prioritize_sknet": false,
+        "qd_prob": 0.5,
+        "sknet_prob": 0.2,
+        "friss_prob": 0.3,
+        "box_scale": 1024
+    },
+    "val": {
+        "dataset_name": "vg",
+        "max_obj_cnt": 5,
+        "img_dir": "/scratch/users/akutuk21/hpc_run/PySGG/datasets/vg/stanford_spilt/VG_100k_images",
+        "roidb_file": "datasets/VG/VG-SGG-with-attri.h5",
+        "dict_file": "datasets/VG/VG-SGG-dicts-with-attri.json",
+        "image_file": "datasets/VG/image_data.json",
+        "mapping_file": "datasets/VG/vg_sketch_mappings.json",
+        "ratios_path": "datasets/ratios",
+        "prioritize_sknet": false,
+        "qd_prob": 0.5,
+        "sknet_prob": 0.2,
+        "friss_prob": 0.3,
+        "box_scale": 1024,
+        "num_val_im": 5000
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "segmentation": {
+        "crop_margins": true,
+        "segm_side_padding": 50,
+        "max_side_dim": 640,
+        "white_bg": true,
+        "color_fg": true
+    }
+}

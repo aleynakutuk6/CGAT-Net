@@ -1,0 +1,46 @@
+{
+    "train": {
+        "dataset_name": "coco",
+        "instances_file" : "/datasets/COCO/annotations/instances_train2017.json",
+        "stuff_file": "/datasets/COCO/annotations/stuff_train2017.json",
+        "mapping_file": "datasets/mapping_files/coco_to_sketch_mappings.json",
+        "ratios_path": "datasets/ratios",
+        "qd_prob": 0.5,
+        "sknet_prob": 0.2,
+        "friss_prob": 0.3,
+        "max_obj_cnt": 20,
+        "max_obj_per_class": 5,
+        "prioritize_sknet": false,
+        "max_point_cnt": 2000
+    },
+    "val": {
+        "dataset_name": "coco",
+        "instances_file": "/datasets/COCO/annotations/instances_val2017.json",
+        "stuff_file" : "/datasets/COCO/annotations/stuff_val2017.json",
+        "mapping_file": "datasets/mapping_files/coco_to_sketch_mappings.json",
+        "ratios_path": "datasets/ratios",
+        "qd_prob": 0.5,
+        "sknet_prob": 0.2,
+        "friss_prob": 0.3,
+        "max_obj_cnt": 20,
+        "max_obj_per_class": 5,
+        "prioritize_sknet": false,
+        "extra_filter_file": "datasets/mapping_files/common_classes.txt",
+        "max_point_cnt": 2000
+    },
+    "test": {
+        "dataset_name": "coco",
+        "instances_file": "/datasets/COCO/annotations/instances_val2017.json",
+        "stuff_file" : "/datasets/COCO/annotations/stuff_val2017.json",
+        "mapping_file": "datasets/mapping_files/coco_to_sketch_mappings.json",
+        "ratios_path": "datasets/ratios",
+        "qd_prob": 0.5,
+        "sknet_prob": 0.2,
+        "friss_prob": 0.3,
+        "max_obj_cnt": 20,
+        "max_obj_per_class": 5,
+        "prioritize_sknet": false,
+        "extra_filter_file": "datasets/mapping_files/common_classes.txt",
+        "max_point_cnt": 2000
+    }
+}

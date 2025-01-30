@@ -1,0 +1,51 @@
+{
+    "val": [
+        {
+            "dataset_name": "coco",
+            "instances_file": "/datasets/COCO/annotations/instances_val2017.json",
+            "stuff_file" : "/datasets/COCO/annotations/stuff_val2017.json",
+            "mapping_file": "datasets/mapping_files/coco_to_sketch_mappings.json",
+            "ratios_path": "datasets/ratios",
+            "qd_prob": 0.5,
+            "sknet_prob": 0.2,
+            "friss_prob": 0.3,
+            "max_obj_cnt": 15,
+            "max_obj_per_class": 3,
+            "prioritize_sknet": false,
+            "extra_filter_file": "datasets/mapping_files/common_classes.txt",
+            "max_point_cnt": -1
+        },
+        {
+            "dataset_name": "cbsc",
+            "data_dir": "/scratch/users/akutuk21/hpc_run/CBSC-dataset/CBSC_processed/validation",
+            "mapping_file": "datasets/mapping_files/cbsc_to_qd_mappings.json",
+            "max_obj_cnt": -1,
+            "extra_filter_file": "datasets/mapping_files/common_classes.txt",
+            "max_point_cnt": -1
+        },
+        {
+            "dataset_name": "cbsc",
+            "data_dir": "/scratch/users/akutuk21/hpc_run/CBSC-dataset/CBSC_processed/test",
+            "mapping_file": "datasets/mapping_files/cbsc_to_qd_mappings.json",
+            "max_obj_cnt": -1,
+            "extra_filter_file": "datasets/mapping_files/common_classes.txt",
+            "max_point_cnt": -1
+        },
+        {
+            "dataset_name": "friss",
+            "data_dir": "datasets/FrISS/val",
+            "mapping_file": "datasets/mapping_files/friss_to_qd_mappings.json",
+            "max_obj_cnt": -1,
+            "extra_filter_file": "datasets/mapping_files/common_classes.txt",
+            "max_point_cnt": -1
+        },
+        {
+            "dataset_name": "friss",
+            "data_dir": "datasets/FrISS/test",
+            "mapping_file": "datasets/mapping_files/friss_to_qd_mappings.json",
+            "max_obj_cnt": -1,
+            "extra_filter_file": "datasets/mapping_files/common_classes.txt",
+            "max_point_cnt": -1
+        }
+    ]
+}

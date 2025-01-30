@@ -1,0 +1,19 @@
+{
+    "sketch_input_dim": 2, 
+    "n_layers": 6, 
+    "n_heads": 8, 
+    "embed_dim": 512,
+    "feedforward_dim": 2048,
+    "normalization": "batch",
+    "dropout": 0.1,
+    "n_classes": 137,
+    "backbone": "resnet50",
+    "pretrained_backbone_path": null,
+    "backbone_n_classes": null,
+    "freeze_backbone": false,
+    
+    "out_sketch_size": 224,
+    "margin_size": 5,
+    "color_images": false,
+    "attn_maps": null
+}

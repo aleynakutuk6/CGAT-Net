@@ -1,0 +1,47 @@
+{
+    "model": {
+        "sketch_input_dim": 2, 
+        "n_layers": 6, 
+        "n_heads": 8, 
+        "embed_dim": 512,
+        "feedforward_dim": 2048,
+        "n_attns": 2,
+        "normalization": "batch",
+        "dropout": 0.1,
+        "n_classes": 171,
+        "backbone": "resnet18",
+        "pretrained_backbone_path": null,
+        "backbone_n_classes": null
+    },
+    "dataset": {
+        "box_scale": 1024,
+        "out_sketch_size": 224,
+        "margin_size": 5,
+        "max_obj_cnt": 5,
+        "num_val_im": 5000,
+        "prioritize_sknet": false,
+        "qd_prob": 0.5,
+        "sknet_prob": 0.2,
+        "friss_prob": 0.3,
+        "attn_maps": [0, 1, 2, 3, 4],
+        "img_dir": "/scratch/users/akutuk21/hpc_run/PySGG/datasets/vg/stanford_spilt/VG_100k_images",
+        "roidb_file": "datasets/VG/VG-SGG-with-attri.h5",
+        "dict_file": "datasets/VG/VG-SGG-dicts-with-attri.json",
+        "image_file": "datasets/VG/image_data.json",
+        "mapping_file": "datasets/VG/vg_sketch_mappings.json",
+        "ratios_path": "datasets/ratios",
+        "train": {
+            "dataset_name": "vg"
+        },
+        "val": {
+            "dataset_name": "vg"
+        }
+    },
+    "pipeline": {
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "best_val_acc": -1,
+        "max_train_steps": 1000000,
+        "val_per_step": 1000
+    }
+}

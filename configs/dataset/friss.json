@@ -1,0 +1,25 @@
+{
+    "train": {
+        "dataset_name": "friss",
+        "data_dir": "datasets/FrISS/train",
+        "mapping_file": "datasets/mapping_files/friss_to_qd_mappings.json",
+        "max_obj_cnt": -1,
+        "max_point_cnt": -1
+    },
+    "val": {
+        "dataset_name": "friss",
+        "data_dir": "datasets/FrISS/val",
+        "mapping_file": "datasets/mapping_files/friss_to_qd_mappings.json",
+        "max_obj_cnt": -1,
+        "extra_filter_file": "datasets/mapping_files/common_classes.txt",
+        "max_point_cnt": -1
+    },
+    "test": {
+        "dataset_name": "friss",
+        "data_dir": "datasets/FrISS/test",
+        "mapping_file": "datasets/mapping_files/friss_to_qd_mappings.json",
+        "max_obj_cnt": -1,
+        "extra_filter_file": "datasets/mapping_files/common_classes.txt",
+        "max_point_cnt": -1
+    }
+}

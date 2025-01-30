@@ -1,0 +1,6 @@
+{
+    "classification": {
+        "backbone": "mobilenet_v2",
+        "model_path": null
+    }
+}

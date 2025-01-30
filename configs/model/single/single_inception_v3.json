@@ -1,0 +1,9 @@
+{
+    "classification": {
+        "backbone": "inception_v3",
+        "out_sketch_size": 299,
+        "model_path": null
+    }
+}
+
+

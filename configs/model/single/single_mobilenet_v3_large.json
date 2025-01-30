@@ -1,0 +1,8 @@
+{
+    "classification": {
+        "backbone": "mobilenet_v3_large",
+        "model_path": null
+    }
+}
+
+

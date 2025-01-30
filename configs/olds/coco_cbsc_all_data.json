@@ -1,0 +1,47 @@
+{
+    "model": {
+        "sketch_input_dim": 2, 
+        "n_layers": 6, 
+        "n_heads": 8, 
+        "embed_dim": 512,
+        "feedforward_dim": 2048,
+        "n_attns": 2,
+        "normalization": "batch",
+        "dropout": 0.1,
+        "n_classes": 137,
+        "backbone": "resnet18",
+        "pretrained_backbone_path": null,
+        "backbone_n_classes": null
+    },
+    "dataset": {
+        "box_scale": 1024,
+        "out_sketch_size": 224,
+        "margin_size": 5,
+        "max_obj_cnt": 5,
+        "prioritize_sknet": false,
+        "qd_prob": 0.5,
+        "sknet_prob": 0.2,
+        "friss_prob": 0.3,
+        "attn_maps": [0, 1, 2, 3, 4],
+        "train": {
+            "dataset_name": "coco",
+            "instances_file" : "/datasets/COCO/annotations/instances_train2017.json",
+            "stuff_file": "/datasets/COCO/annotations/stuff_train2017.json",
+            "mapping_file": "datasets/COCO/coco_sketch_mappings.json"
+        },
+        "val": {
+            "dataset_name": "cbsc",
+            "data_dir": "/scratch/users/akutuk21/hpc_run/CBSC-dataset/CBSC_processed/validation",
+            "mapping_file": "datasets/mapping_files/cbsc_to_coco_mappings.json"
+        },
+        "ratios_path": "datasets/ratios"
+    
+    },
+    "pipeline": {
+        "learning_rate": 0.0001,
+        "batch_size": 32,
+        "best_val_acc": -1,
+        "max_train_steps": 80000,
+        "val_per_step": 1000
+    }
+}

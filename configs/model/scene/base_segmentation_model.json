@@ -1,0 +1,10 @@
+{
+    "segmentation": {
+        "mmdet_cfg": "configs/external/mmdet_yolox_cfg.py",
+        "weight": "weights/no_class_yolox_detector.pth",
+        "rem_OR": 0.65,
+        "num_repeats": 5,
+        "select_larger_thold": 0.05,
+        "init_OR": 0.35
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "sketch_input_dim": 2, 
+    "n_layers": 6, 
+    "n_heads": 8, 
+    "embed_dim": 512,
+    "feedforward_dim": 2048,
+    "n_attns": 2,
+    "normalization": "batch",
+    "dropout": 0.1,
+    "n_classes": 137,
+    "backbone": "resnet18",
+    "pretrained_backbone_path": "run_results/resnet18_color_lr1e-04/best_model.pth",
+    "backbone_n_classes": 458,
+    "freeze_backbone": true,
+    
+    "out_sketch_size": 224,
+    "margin_size": 5,
+    "color_images": true,
+    "attn_maps": null
+}

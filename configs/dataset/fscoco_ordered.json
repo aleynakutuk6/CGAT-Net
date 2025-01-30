@@ -1,0 +1,26 @@
+{
+    "train": {
+        "dataset_name": "fscoco",
+        "data_dir": "datasets/FS-COCO/test_rdp_reordered",
+        "mapping_file": "datasets/mapping_files/fscoco_to_sketch_mappings.json",
+        "max_obj_cnt": -1,
+        "extra_filter_file": "datasets/mapping_files/common_classes.txt",
+        "max_point_cnt": -1
+    },
+    "val": {
+        "dataset_name": "fscoco",
+        "data_dir": "datasets/FS-COCO/test_rdp_reordered",
+        "mapping_file": "datasets/mapping_files/fscoco_to_sketch_mappings.json",
+        "max_obj_cnt": -1,
+        "extra_filter_file": "datasets/mapping_files/common_classes.txt",
+        "max_point_cnt": -1
+    },
+    "test": {
+        "dataset_name": "fscoco",
+        "data_dir": "datasets/FS-COCO/test_rdp_reordered",
+        "mapping_file": "datasets/mapping_files/fscoco_to_sketch_mappings.json",
+        "max_obj_cnt": -1,
+        "extra_filter_file": "datasets/mapping_files/common_classes.txt",
+        "max_point_cnt": -1
+    }
+}

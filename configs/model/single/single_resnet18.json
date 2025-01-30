@@ -1,0 +1,6 @@
+{
+    "classification": {
+        "backbone": "resnet18",
+        "model_path": null
+    }
+}

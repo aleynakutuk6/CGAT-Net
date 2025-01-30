@@ -1,0 +1,21 @@
+{
+    "classification": {
+        "n_layers": null, 
+        "n_heads": 6, 
+        "embed_dim": 512,
+        "feedforward_dim": 1024,
+        "normalization": "batch",
+        "dropout": 0.1,
+        "backbone": "inception_v3",
+        
+        "pretrained_backbone_path": null,
+        "backbone_n_classes": null,
+        "freeze_backbone": false,
+        "use_cls_backbone_outs": false,
+        
+        "apply_graph_mask": null,
+        "use_no_mask": null,
+        
+        "out_sketch_size": 299
+    }
+}

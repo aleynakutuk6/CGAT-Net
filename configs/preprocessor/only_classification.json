@@ -1,0 +1,9 @@
+{
+    "classification": {
+        "margin_size": 5,
+        "out_sketch_size": 224,
+        "color_images": true,
+        "attn_maps": null,
+        "calc_attn_with_self": true
+    }
+}

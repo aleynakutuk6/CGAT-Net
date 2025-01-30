@@ -1,0 +1,14 @@
+{
+    "train": {
+        "dataset_name": "single_sketch",
+        "data_dir": "datasets/ratios",
+        "max_point_cnt": 300,
+        "train_set_list": ["qd"]
+    },
+    "val": {
+        "dataset_name": "single_sketch",
+        "data_dir": "datasets/ratios",
+        "max_point_cnt": 300,
+        "train_set_list": ["qd"]
+    }
+}

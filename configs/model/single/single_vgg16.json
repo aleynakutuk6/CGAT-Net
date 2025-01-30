@@ -1,0 +1,8 @@
+{
+    "classification": {
+        "backbone": "vgg16",
+        "model_path": null
+    }
+}
+
+
